@@ -1,0 +1,24 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+#btnAddSongToPlaylist{
+    -fx-text-fill:#b3b3b3;
+    -fx-background-image:url("../images/AddSongGrey.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:right center;
+    -fx-background-size:26 26;
+}
+#btnAddSongToPlaylist:hover{
+    -fx-text-fill:white;
+    -fx-background-image:url("../images/AddSongWhite.png");  
+}
+#btnAddSongToPlaylist:pressed{
+    -fx-text-fill:#b3b3b3;
+    -fx-background-image:url("../images/AddSongGrey.png");
+}
+#btnAddSongToPlaylist:focus:required:placeholder-shown{
+    -fx-background-color:#535353;
+    -fx-text-fill: white;
+}

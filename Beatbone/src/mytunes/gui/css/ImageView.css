@@ -1,0 +1,21 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+/* Styling the slider track */
+.jfx-slider > .track{
+     -fx-background-color:#535353;
+}
+/* Styling the filled track */
+.jfx-slider > .colored-track{
+     -fx-background-color:#ff006f;
+}
+/* Styling the slider thumb */
+.jfx-slider > .thumb{
+     -fx-background-color:white;
+}
+/* Styling the animated thumb */
+.jfx-slider > .animated-thumb{
+     -fx-background-color:#ff006f;
+}

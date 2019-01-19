@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="855.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mytunes.gui.controller.LoginViewController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="556.0" stroke="#212121" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="2.0" width="855.0" />
+      <TextField fx:id="txtEmail" layoutX="164.0" layoutY="203.0" prefHeight="30.0" prefWidth="488.0" promptText="e-mail" style="-fx-background-color: #181818;" stylesheets="@../css/TextFieldGeneric.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <Button layoutX="223.0" layoutY="327.0" mnemonicParsing="false" onAction="#clickCreateAccount" prefHeight="40.0" prefWidth="153.0" style="-fx-background-radius: 100;" stylesheets="@../css/ButtonSecondary.css" text="Sign In">
+         <font>
+            <Font name="Gotham-Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnLogin" layoutX="428.0" layoutY="329.0" mnemonicParsing="false" onAction="#clickLogin" prefHeight="36.0" prefWidth="153.0" style="-fx-background-radius: 100;" stylesheets="@../css/ButtonNewSong.css" text="Log In" textFill="WHITE">
+         <font>
+            <Font name="Gotham-Bold" size="12.0" />
+         </font></Button>
+      <PasswordField fx:id="txtPassword" layoutX="164.0" layoutY="256.0" prefHeight="30.0" prefWidth="488.0" promptText="password" style="-fx-background-color: #181818;" stylesheets="@../css/TextFieldGeneric.css">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></PasswordField>
+      <Pane layoutY="-1.0" onMouseDragged="#clickMouseDragged" onMousePressed="#clickMousePressed" prefHeight="30.0" prefWidth="591.0" />
+      <Button layoutX="814.0" layoutY="2.0" mnemonicParsing="false" onAction="#clickClose" prefHeight="30.0" prefWidth="40.0" stylesheets="@../css/ButtonClose.css" />
+      <Button layoutX="777.0" layoutY="2.0" mnemonicParsing="false" onAction="#clickMinimalize" prefHeight="30.0" prefWidth="37.0" stylesheets="@../css/ButtonMinimalize.css" />
+      <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="295.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/LogoHeader.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

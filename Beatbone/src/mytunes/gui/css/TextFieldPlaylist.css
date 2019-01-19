@@ -1,0 +1,9 @@
+/* 
+    Author schemabuoi
+    Author kiddo
+*/
+
+.text-field{
+  -fx-prompt-text-fill:#535353;
+  -fx-padding:5 5 5 30;
+}

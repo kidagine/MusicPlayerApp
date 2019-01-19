@@ -1,5 +1,3 @@
-# My-Tunes
-Third and last project during the first semester at Business Academy Southwest.
-
-Time for the completion: 3 weeks.
-
+# Music Player
+Final project during the first semester at Business Academy Southwest.
+Done in 3 weeks with @schemabuoi.
